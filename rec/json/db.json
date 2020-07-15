@@ -1,0 +1,194 @@
+[
+  {
+    "id": 24,
+    "title": "Jumanji: En la Selva",
+    "url": "jumanji-en-la-selva-2017",
+    "publish": "2020-6-1",
+    "premiere": "2017-12-20",
+    "year": 2017
+  },
+  {
+    "id": 23,
+    "title": "Spider-Man: de Regreso a Casa",
+    "url": "spider-man-de-regreso-a-casa-2017",
+    "publish": "2020-5-31",
+    "premiere": "2017-7-7",
+    "year": 2017
+  },
+  {
+    "id": 22,
+    "title": "Star Wars: Episodio VIII - Los Últimos Jedi",
+    "url": "star-wars-episodio-viii-los-ultimos-jedi-2017",
+    "publish": "2020-5-30",
+    "premiere": "2017-12-14",
+    "year": 2017
+  },
+  {
+    "id": 21,
+    "title": "Los Vengadores",
+    "url": "los-vengadores-2012",
+    "publish": "2020-5-29",
+    "premiere": "2012-5-4",
+    "year": 2012
+  },
+  {
+    "id": 20,
+    "title": "La Noche del Demonio: La Ultima Llave",
+    "url": "la-noche-del-demonio-la-ultima-llave-2018",
+    "publish": "2020-5-28",
+    "premiere": "2018-1-5",
+    "year": 2018
+  },
+  {
+    "id": 19,
+    "title": "Capitán Harlock, El Pirata Espacial",
+    "url": "capitan-harlock-el-pirata-espacial-2013",
+    "publish": "2020-5-27",
+    "premiere": "2013-9-7",
+    "year": 2013
+  },
+  {
+    "id": 18,
+    "title": "El Planeta de los Simios: Confrontación",
+    "url": "el-planeta-de-los-simios-confrontacion-2014",
+    "publish": "2020-5-26",
+    "premiere": "2014-7-11",
+    "year": 2014
+  },
+  {
+    "id": 17,
+    "title": "El Dador de Recuerdos",
+    "url": "el-dador-de-recuerdos-2014",
+    "publish": "2020-5-25",
+    "premiere": "2014-8-15",
+    "year": 2014
+  },
+  {
+    "id": 16,
+    "title": "It (Eso)",
+    "url": "it-eso-2017",
+    "publish": "2020-5-24",
+    "premiere": "2017-9-8",
+    "year": 2017
+  },
+  {
+    "id": 15,
+    "title": "Guardianes de la Galaxia",
+    "url": "guardianes-de-la-galaxia-2014",
+    "publish": "2020-5-23",
+    "premiere": "2014-9-1",
+    "year": 2014
+  },
+  {
+    "id": 14,
+    "title": "Focus",
+    "url": "focus-2015",
+    "publish": "2020-5-22",
+    "premiere": "2015-2-27",
+    "year": 2015
+  },
+  {
+    "id": 13,
+    "title": "Enemigo Público",
+    "url": "enemigo-publico-1998",
+    "publish": "2020-5-21",
+    "premiere": "1998-11-20",
+    "year": 1998
+  },
+  {
+    "id": 12,
+    "title": "Ex-Máquina",
+    "url": "ex-maquina-2015",
+    "publish": "2020-5-20",
+    "premiere": "2015-1-21",
+    "year": 2015
+  },
+  {
+    "id": 11,
+    "title": "El Protegido",
+    "url": "el-protegido-2000",
+    "publish": "2020-5-19",
+    "premiere": "2000-11-14",
+    "year": 2000
+  },
+  {
+    "id": 10,
+    "title": "El Señor de la Guerra",
+    "url": "el-senor-de-la-guerra-2005",
+    "publish": "2020-5-18",
+    "premiere": "2005-9-16",
+    "year": 2005
+  },
+  {
+    "id": 9,
+    "title": "El Gran Truco",
+    "url": "el-grane-truco-2006",
+    "publish": "2020-5-17",
+    "premiere": "2006-10-17",
+    "year": 2006
+  },
+  {
+    "id": 8,
+    "title": "Maze Runner: Correr o Morir",
+    "url": "maze-runner-correr-o-morir-2014",
+    "publish": "2020-5-16",
+    "premiere": "2014-9-19",
+    "year": 2014
+  },
+  {
+    "id": 7,
+    "title": "Déjà vu",
+    "url": "deja-vu-2006",
+    "publish": "2020-5-15",
+    "premiere": "2006-11-20",
+    "year": 2006
+  },
+  {
+    "id": 6,
+    "title": "Cincuenta Sombras Liberadas",
+    "url": "cincuenta-sombras-liberadas-2018",
+    "publish": "2020-5-14",
+    "premiere": "2018-2-6",
+    "year": 2018
+  },
+  {
+    "id": 5,
+    "title": "Thor Ragnarok",
+    "url": "thor-ragnarok-2017",
+    "publish": "2020-5-13",
+    "premiere": "2017-11-3",
+    "year": 2017
+  },
+  {
+    "id": 4,
+    "title": "El Efecto Mariposa",
+    "url": "el-efecto-mariposa-2004",
+    "publish": "2020-5-12",
+    "premiere": "2004-1-23",
+    "year": 2004
+  },
+  {
+    "id": 3,
+    "title": "Batman, Ciudad Gótica: Luz de Gas",
+    "url": "batman-ciudad-gotica-luz-de-gas-2018",
+    "publish": "2020-5-11",
+    "premiere": "2018-1-23",
+    "year": 2018
+  },
+  {
+    "id": 2,
+    "title": "Arrastrame al Infierno",
+    "url": "arrastrame-al-infierno-2009",
+    "publish": "2020-5-10",
+    "premiere": "2009-5-29",
+    "year": 2009
+  },
+  {
+    "id": 1,
+    "title": "Grandes Heroes",
+    "url": "grandes-heroes-2014",
+    "publish": "2020-5-9",
+    "premiere": "2014-11-7",
+    "year": 2014
+  }
+]

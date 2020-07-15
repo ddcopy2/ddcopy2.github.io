@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" as="font" type="font/woff2" href="./rec/fonts/roboto-300.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="./rec/fonts/lato-regular.woff2" crossorigin>
+    <title>Ver Películas Online | Solo Contenido HD y Full HD</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./rec/css/style.css">
+  </head>
+  <body class="light-mode" id="body">
+    <div class="main-container">
+      <header class="header-fixed" id="header">
+        <div class="header">
+          <div class="header__logo"><img src="./rec/img/logo.svg"></div>
+          <nav class="nav-burger" id="nav-burger">
+            <div class="nav-burger__top"></div>
+            <div class="nav-burger__center"></div>
+            <div class="nav-burger__bottom"></div>
+          </nav>
+          <nav class="nav-group" id="nav-group">
+            <div class="search-ct">
+              <input class="search" type="text" placeholder="Película, Género, Actor, Tematica, etc."><span> 
+                <div class="icon-search"></div></span>
+            </div>
+            <div class="nav-main">
+              <ul>
+                <li class="nav-item"> <span id="home">Inicio</span></li>
+                <li class="nav-item"> <span id="gender">Género</span><span class="ct-icon">
+                    <div class="icon-arrow"></div></span>
+                  <div class="nav-item-ct">
+                    <ul>
+                      <li class="nav-subitem"> <span>Acción</span></li>
+                      <li class="nav-subitem"> <span>Aventura</span></li>
+                      <li class="nav-subitem"> <span>Ciencia Ficción</span></li>
+                      <li class="nav-subitem"> <span>Comedia</span></li>
+                      <li class="nav-subitem"> <span>Documental</span></li>
+                      <li class="nav-subitem"> <span>Drama</span></li>
+                    </ul>
+                    <ul>
+                      <li class="nav-subitem"> <span>Fantasía</span></li>
+                      <li class="nav-subitem"> <span>Infantil</span></li>
+                      <li class="nav-subitem"> <span>Musical</span></li>
+                      <li class="nav-subitem"> <span>Romance</span></li>
+                      <li class="nav-subitem"> <span>Suspenso</span></li>
+                      <li class="nav-subitem"> <span>Terror</span></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item"><span id="look-for">Buscar por...</span></li>
+              </ul>
+            </div>
+            <div class="btn-theme"><span>Tema Oscuro</span>
+              <input type="checkbox" id="toggle-check">
+              <label class="btn-toggle" id="btn-toggle" for="toggle-check"></label>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="main main-home" role="main" id="main">
+        <nav id="nav-taps">
+          <ul>
+            <li class="nav-taps__item nav-taps__active">RECIENTES</li>
+            <li class="nav-taps__item">ESTRENOS</li>
+            <li class="nav-taps__item">MI LISTA ( 5 )</li>
+            <li class="nav-taps__border"></li>
+          </ul>
+        </nav>
+        <h1>Ver Películas Online</h1>
+        <div id="card-container">
+                    <div class="card-cover"><a href="ver-peliculas-online/jumanji-en-la-selva-2017.html" title="Jumanji: En la Selva (2017)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/jumanji-en-la-selva-2017.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/jumanji-en-la-selva-2017.jpg"><img src="rec/img/covers/276x409/jumanji-en-la-selva-2017.jpg">
+                        </picture><span class="title">Jumanji: En la Selva</span><span class="year">2017</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/spider-man-de-regreso-a-casa-2017.html" title="Spider-Man: de Regreso a Casa (2017)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/spider-man-de-regreso-a-casa-2017.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/spider-man-de-regreso-a-casa-2017.jpg"><img src="rec/img/covers/276x409/spider-man-de-regreso-a-casa-2017.jpg">
+                        </picture><span class="title">Spider-Man: de Regreso a Casa</span><span class="year">2017</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/star-wars-episodio-viii-los-ultimos-jedi-2017.html" title="Star Wars: Episodio VIII - Los Últimos Jedi (2017)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/star-wars-episodio-viii-los-ultimos-jedi-2017.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/star-wars-episodio-viii-los-ultimos-jedi-2017.jpg"><img src="rec/img/covers/276x409/star-wars-episodio-viii-los-ultimos-jedi-2017.jpg">
+                        </picture><span class="title">Star Wars: Episodio VIII - Los Últimos Jedi</span><span class="year">2017</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/los-vengadores-2012.html" title="Los Vengadores (2012)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/los-vengadores-2012.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/los-vengadores-2012.jpg"><img src="rec/img/covers/276x409/los-vengadores-2012.jpg">
+                        </picture><span class="title">Los Vengadores</span><span class="year">2012</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/la-noche-del-demonio-la-ultima-llave-2018.html" title="La Noche del Demonio: La Ultima Llave (2018)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/la-noche-del-demonio-la-ultima-llave-2018.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/la-noche-del-demonio-la-ultima-llave-2018.jpg"><img src="rec/img/covers/276x409/la-noche-del-demonio-la-ultima-llave-2018.jpg">
+                        </picture><span class="title">La Noche del Demonio: La Ultima Llave</span><span class="year">2018</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/capitan-harlock-el-pirata-espacial-2013.html" title="Capitán Harlock, El Pirata Espacial (2013)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/capitan-harlock-el-pirata-espacial-2013.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/capitan-harlock-el-pirata-espacial-2013.jpg"><img src="rec/img/covers/276x409/capitan-harlock-el-pirata-espacial-2013.jpg">
+                        </picture><span class="title">Capitán Harlock, El Pirata Espacial</span><span class="year">2013</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/el-planeta-de-los-simios-confrontacion-2014.html" title="El Planeta de los Simios: Confrontación (2014)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/el-planeta-de-los-simios-confrontacion-2014.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/el-planeta-de-los-simios-confrontacion-2014.jpg"><img src="rec/img/covers/276x409/el-planeta-de-los-simios-confrontacion-2014.jpg">
+                        </picture><span class="title">El Planeta de los Simios: Confrontación</span><span class="year">2014</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/el-dador-de-recuerdos-2014.html" title="El Dador de Recuerdos (2014)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/el-dador-de-recuerdos-2014.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/el-dador-de-recuerdos-2014.jpg"><img src="rec/img/covers/276x409/el-dador-de-recuerdos-2014.jpg">
+                        </picture><span class="title">El Dador de Recuerdos</span><span class="year">2014</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/it-eso-2017.html" title="It (Eso) (2017)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/it-eso-2017.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/it-eso-2017.jpg"><img src="rec/img/covers/276x409/it-eso-2017.jpg">
+                        </picture><span class="title">It (Eso)</span><span class="year">2017</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/guardianes-de-la-galaxia-2014.html" title="Guardianes de la Galaxia (2014)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/guardianes-de-la-galaxia-2014.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/guardianes-de-la-galaxia-2014.jpg"><img src="rec/img/covers/276x409/guardianes-de-la-galaxia-2014.jpg">
+                        </picture><span class="title">Guardianes de la Galaxia</span><span class="year">2014</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/focus-2015.html" title="Focus (2015)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/focus-2015.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/focus-2015.jpg"><img src="rec/img/covers/276x409/focus-2015.jpg">
+                        </picture><span class="title">Focus</span><span class="year">2015</span></a></div>
+                    <div class="card-cover"><a href="ver-peliculas-online/enemigo-publico-1998.html" title="Enemigo Público (1998)">
+                        <picture>
+                          <source media="(max-width: 768px)" srcset="rec/img/covers/304x450/enemigo-publico-1998.jpg">
+                          <source media="(min-width: 1024px)" srcset="rec/img/covers/183x271/enemigo-publico-1998.jpg"><img src="rec/img/covers/276x409/enemigo-publico-1998.jpg">
+                        </picture><span class="title">Enemigo Público</span><span class="year">1998</span></a></div>
+        </div>
+        <nav id="pagination">
+          <div id="pagination-btn">
+            <div class="pagination-btn__item pagination-btn__position pagination-btn__active">1</div>
+            <div class="pagination-btn__item pagination-btn__position">2</div>
+            <div class="pagination-btn__item pagination-btn__position">3</div>
+            <div class="pagination-btn__item pagination-btn__position">4</div>
+            <div class="pagination-btn__item pagination-btn__position">5</div>
+            <div class="pagination-btn__item pagination-btn__position">6</div>
+            <div class="pagination-btn__item pagination-btn__position">15</div>
+            <div class="pagination-btn__points pagination-btn__position pagination-btn__hide">...</div>
+            <div class="pagination-btn__points pagination-btn__position">...</div>
+          </div>
+          <div class="pagination-return">
+            <div class="pagination-return__first pagination-interactive pagination-interactive__disabled"><code><<<</code></div>
+            <div class="pagination-return__prev pagination-interactive pagination-interactive__disabled"><code><<</code></div>
+          </div>
+          <div class="pagination-continue">
+            <div class="pagination-continue__next pagination-interactive"><code>>></code></div>
+            <div class="pagination-continue__last pagination-interactive"><code>>>></code></div>
+          </div>
+        </nav>
+      </main>
+      <aside class="aside aside-home">
+        <div class="title-aside">TOP</div>
+        <div class="card-aside-ct">
+                  <div class="card-aside"><a href="ver-peliculas-online/grandes-heroes-2014.html" title="Grandes Heroes (2014)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/grandes-heroes-2014.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/grandes-heroes-2014.jpg"><img src="rec/img/covers/158x234/grandes-heroes-2014.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/arrastrame-al-infierno-2009.html" title="Arrastrame al Infierno (2009)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/arrastrame-al-infierno-2009.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/arrastrame-al-infierno-2009.jpg"><img src="rec/img/covers/158x234/arrastrame-al-infierno-2009.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/batman-ciudad-gotica-luz-de-gas-2018.html" title="Batman, Ciudad Gótica: Luz de Gas (2018)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/batman-ciudad-gotica-luz-de-gas-2018.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/batman-ciudad-gotica-luz-de-gas-2018.jpg"><img src="rec/img/covers/158x234/batman-ciudad-gotica-luz-de-gas-2018.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/el-efecto-mariposa-2004.html" title="El Efecto Mariposa (2004)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/el-efecto-mariposa-2004.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/el-efecto-mariposa-2004.jpg"><img src="rec/img/covers/158x234/el-efecto-mariposa-2004.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/thor-ragnarok-2017.html" title="Thor Ragnarok (2017)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/thor-ragnarok-2017.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/thor-ragnarok-2017.jpg"><img src="rec/img/covers/158x234/thor-ragnarok-2017.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/cincuenta-sombras-liberadas-2018.html" title="Cincuenta Sombras Liberadas (2018)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/cincuenta-sombras-liberadas-2018.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/cincuenta-sombras-liberadas-2018.jpg"><img src="rec/img/covers/158x234/cincuenta-sombras-liberadas-2018.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/deja-vu-2006.html" title="Déjà vu (2006)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/deja-vu-2006.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/deja-vu-2006.jpg"><img src="rec/img/covers/158x234/deja-vu-2006.jpg">
+                      </picture></a></div>
+                  <div class="card-aside"><a href="ver-peliculas-online/maze-runner-correr-o-morir-2014.html" title="Maze Runner: Correr o Morir (2014)">
+                      <picture>
+                        <source media="(max-width: 768px)" srcset="rec/img/covers/183x271/maze-runner-correr-o-morir-2014.jpg">
+                        <source media="(min-width: 1024px)" srcset="rec/img/covers/90x133/maze-runner-correr-o-morir-2014.jpg"><img src="rec/img/covers/158x234/maze-runner-correr-o-morir-2014.jpg">
+                      </picture></a></div><span class="ct-icons-l icons-hidden">
+            <div class="icon-arrow-l"></div></span><span class="ct-icons-r">
+            <div class="icon-arrow-r"></div></span>
+        </div>
+      </aside>
+    </div>
+    <div class="poster-light" id="poster-home"></div>
+    <footer class="footer">
+      <div class="footer-nav"><span class="ct-icons">
+          <div class="icon-logo"></div></span>
+        <nav>
+          <ul>
+            <li>DMCA</li>
+            <li>Condiciones de Uso</li>
+            <li>Política de Privacidad</li>
+          </ul>
+        </nav>
+        <div class="social">
+          <div class="icon-facebook"></div>
+          <div class="icon-twitter"></div>
+          <div class="icon-youtube"></div>
+        </div>
+      </div>
+      <div class="footer-copy-ct">
+        <div class="footer-copy">
+          <p>&copy 2020 www.ddcopy.club</p>
+          <p class="pipe1">|</p>
+          <p>Todos los derechos reservados</p>
+          <p class="pipe2">|</p>
+          <p>Desarrollado por DDCopy.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./rec/js/main.js"></script>
+  </body>
+</html>
